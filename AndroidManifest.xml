@@ -191,7 +191,7 @@
             android:icon="@mipmap/ic_launcher_camera"
             android:label="@string/camera_label"
             android:taskAffinity="com.android.camera.CameraActivity"
-            android:theme="@style/android:Theme.NoDisplay" />
+/>
         <activity-alias android:name="com.android.camera.CameraLauncher"
             android:label="@string/camera_label"
             android:targetActivity="com.android.camera.CameraActivity">
@@ -348,12 +348,12 @@
         </activity>
         <service android:name="com.android.gallery3d.app.BatchService" />
 
-        <receiver android:name="com.android.camera.DisableCameraReceiver">
+<!--        <receiver android:name="com.android.camera.DisableCameraReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-
+-->
         <service android:name="com.android.camera.MediaSaveService" />
     </application>
 </manifest>
